@@ -1,0 +1,100 @@
+/* Survey page styles */
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  font-size: 1em;
+  text-align: center;
+  color: #fde68f;
+  margin-bottom: 30px;
+}
+
+select {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 4px;
+}
+
+p:nth-child(3)  {
+  margin-top: 0;
+}
+
+label {
+  display: inline-block;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select {
+  outline: none;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #FFF;
+  font-size: 1em;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+textarea {
+  font-size: 1.3em;
+  margin: 4px 0 18px 0;
+  display: block;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 2px solid #A4FF06;
+  background-color: #D2FC8A;
+  box-shadow: 0 0 2px #E4FFC9;
+}
+
+.photo{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+form {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: left;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+
+  .container{
+  text-align: left;
+  }
+
+  legend {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    display: none;
+  }
+}
