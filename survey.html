@@ -29,8 +29,9 @@
       <div class="card">
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="Photo of concert crowd">
-          <div class="container">
-              <form class = "survey">
+
+          <div class="container">         
+              <form class = "survey">               
                   <fieldset>
                   <legend>Tell Us what you love about our band</legend>
                     <p>Who is your favorite band member:</p>    
@@ -43,8 +44,8 @@
                     <input type="radio" name="res" value="Sally" id="Sally"> 
                     <label for="Sally">Sally</label>
 
-                    <p>What is your favorite album:</p>
-                    <select>
+                    <label for="albums">What is your favorite album:</label>
+                     <select id="albums" name="select">
                      <option value="2">A Day Of Old</option>
                      <option value="4">Diamond Fireworks</option>
                      <option value="5">Enjoy Your Desire</option>
@@ -62,9 +63,7 @@
                     <button type="submit" value="Submit" aria-describedby="submitFav">Submit</button>
                     <p id="submitFav">Submit what you like about the band</p>
                   </fieldset>
-              </form>
-
-        
+              </form>    
           </div>
         </div>
       </div>

@@ -28,10 +28,6 @@ p:nth-child(3)  {
   margin-top: 0;
 }
 
-label {
-  display: inline-block;
-}
-
 input[type=text],
 input[type=email],
 textarea,
@@ -83,9 +79,24 @@ form {
   text-align: left;
 }
 
+label {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+label:nth-of-type(5) {
+  margin-top: 20px;
+}
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
+
+  form.survey{
+    width: 60%;
+  }
+
   .photo{
     width: 40%;
   }

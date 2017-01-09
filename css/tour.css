@@ -37,14 +37,17 @@ table {
 }
 
 th {
-  background: #873f02;
+  background: #415601;
   color: #fff;
-  padding: 6px;
+  padding: 8px 8px 8px 15px;
   text-align: left;
 }
 
+tr:nth-child(odd) {
+  background-color: #3E3E3E;
+}
+
 td{
-	border-bottom: 1px solid #fff;
 	text-align: left;
   padding: 15px;
 }
